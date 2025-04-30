@@ -1,0 +1,50 @@
+## Ignore arquivos de build
+bin/
+obj/
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.pdb
+*.cache
+*.log
+
+## VS Code
+.vscode/
+
+## Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+## Build results
+[Bb]uild/
+[Ll]ogs/
+
+## Pacotes NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+## Arquivos temporários
+*.tmp
+*.bak
+*.old
+*.swp
+*.DS_Store
+Thumbs.db
+
+## Configurações locais
+*.local.json
+appsettings.Development.json
+
+## Arquivos do Rider
+.idea/
+*.sln.iml
