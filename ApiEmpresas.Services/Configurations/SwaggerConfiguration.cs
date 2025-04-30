@@ -2,39 +2,31 @@
 
 namespace ApiEmpresas.Services.Configurations
 {
-
     /// <summary>
     /// Classe para configuração da documentação do Swagger
     /// </summary>
     public static class SwaggerConfiguration
     {
         /// <summary>
-        /// Configurar o conteúdo da documentação do swagger
+        /// Configurar o conteudo da documentação do swagger
         /// </summary>
         public static void AddSwagger(WebApplicationBuilder builder)
         {
-            builder.Services.AddSwaggerGen(s => {
-            s.SwaggerDoc("v1", new OpenApiInfo
+            builder.Services.AddSwaggerGen(s =>
             {
-                Version = "v1",
-                Title = "API para controle de empresas",
-                Description = "Projeto desenvolvido em NET8 API com EntityFramework SqlServer",
-                Contact = new OpenApiContact
+                s.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Name = "SES-RJ",
-                    Url = new Uri("https://extranet.saude.rj.gov.br/"),
-                    Email = "ryan.freires@saude.rj.gov.br"
-                }
+                    Version = "v1",
+                    Title = "API para controle de empresas",
+                    Description = "Projeto desenvolvido em NET6 API com EntityFramework SqlServer",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "COTI Informática",
+                        Url = new Uri("http://www.cotiinformatica.com.br"),
+                        Email = "contato@cotiinformatica.com.br"
+                    }
+                });
             });
-        });  
-        }
-
-        /// <summary>
-        /// Configuração a exportação desta documentação
-        /// </summary>
-        public static void UseSwagger(WebApplicationBuilder builder)
-        {
-
         }
     }
 }

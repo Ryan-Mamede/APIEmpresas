@@ -2,10 +2,8 @@
 
 namespace ApiEmpresas.Services.Requests
 {
-
-
     /// <summary>
-    /// Classe para modelagem da requisição de cadastro de empresa
+    /// Modelagem da requisição de cadastro de empresa
     /// </summary>
     public class EmpresaPostRequest
     {
@@ -16,6 +14,6 @@ namespace ApiEmpresas.Services.Requests
         public string? RazaoSocial { get; set; }
 
         [Required(ErrorMessage = "Informe o cnpj.")]
-        public string? Cnpj {  get; set; }
+        public string? Cnpj { get; set; }
     }
 }

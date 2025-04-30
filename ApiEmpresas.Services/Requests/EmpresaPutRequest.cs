@@ -2,9 +2,12 @@
 
 namespace ApiEmpresas.Services.Requests
 {
+    /// <summary>
+    /// Modelagem da requisição de edição de empresa
+    /// </summary>
     public class EmpresaPutRequest
     {
-        [Required(ErrorMessage = "Informe o id da empresa.")]
+        [Required(ErrorMessage = "Informe a id da empresa.")]
         public Guid IdEmpresa { get; set; }
 
         [Required(ErrorMessage = "Informe o nome fantasia.")]

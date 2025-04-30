@@ -7,5 +7,6 @@ namespace ApiEmpresas.Services.Controllers
     [ApiController]
     public class FuncionariosController : ControllerBase
     {
+
     }
 }
