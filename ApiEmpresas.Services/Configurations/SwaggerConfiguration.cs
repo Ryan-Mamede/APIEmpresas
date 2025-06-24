@@ -21,9 +21,9 @@ namespace ApiEmpresas.Services.Configurations
                     Description = "Projeto desenvolvido em NET6 API com EntityFramework SqlServer",
                     Contact = new OpenApiContact
                     {
-                        Name = "COTI Informática",
-                        Url = new Uri("http://www.cotiinformatica.com.br"),
-                        Email = "contato@cotiinformatica.com.br"
+                        Name = "Ryan Mamede",
+                        Url = new Uri("https://www.linkedin.com/in/ryan-mamede-799b141aa/"),
+                        Email = "ryan.mamede193@gmail.com"
                     }
                 });
             });
