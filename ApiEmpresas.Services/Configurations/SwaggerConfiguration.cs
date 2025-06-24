@@ -23,7 +23,11 @@ namespace ApiEmpresas.Services.Configurations
                     {
                         Name = "Ryan Mamede",
                         Url = new Uri("https://www.linkedin.com/in/ryan-mamede-799b141aa/"),
+<<<<<<< HEAD
                         Email = "ryan.mamede193@gmail.com"
+=======
+                        Email = "contato@cotiinformatica.com.br"
+>>>>>>> 5f279bfd79d33a945523697f3197c6b8029fc887
                     }
                 });
             });
